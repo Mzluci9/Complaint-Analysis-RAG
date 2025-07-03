@@ -34,3 +34,6 @@ black
 mypy
 seaborn 
 matplotlib
+sentence-transformers
+faiss-cpu
+nltk
