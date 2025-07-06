@@ -1,0 +1,39 @@
+# Core NLP & Vector Search
+openai>=1.10.0          # if you're using OpenAI API
+langchain>=0.1.0        # for RAG orchestration
+faiss-cpu>=1.7.4        # or use chromadb if preferred
+tiktoken                # token counting (for OpenAI)
+
+# Optional: If using Chroma instead of FAISS
+# chromadb>=0.4.10
+
+# Embedding & Model Support
+sentence-transformers>=2.2.2  # for embedding complaint narratives
+transformers>=4.38.0          # if using Hugging Face models
+
+# Data handling
+pandas>=1.5.3
+numpy>=1.24.1
+
+# Optional: Frontend/Serving
+streamlit>=1.28.0        # for internal tool interface
+# or FastAPI if you're building a backend API
+# fastapi
+# uvicorn[standard]
+
+# Dev Tools
+python-dotenv>=1.0.0     # for managing secrets/API keys
+scikit-learn>=1.2.0      # for optional clustering, stats, etc.
+
+# Testing
+pytest>=7.2.0
+
+# Linting/Formatting/Typing
+flake8
+black
+mypy
+seaborn 
+matplotlib
+sentence-transformers
+faiss-cpu
+nltk
